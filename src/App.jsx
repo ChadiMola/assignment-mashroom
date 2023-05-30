@@ -1,20 +1,16 @@
-
-import { Route, Routes } from 'react-router-dom'
-import Home from './pages/Home'
-import Users from './pages/Users'
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Users from "./pages/Users";
 
 function App() {
-
   return (
     <>
-    <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='/table' element={<Users/>}/>
-
-    </Routes>
-      
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/table" element={<Users />} />
+      </Routes>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
