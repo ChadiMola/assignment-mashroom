@@ -3,3 +3,13 @@
 @tailwind utilities;
 
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.logo {
+  font-family: 'Pacifico', cursive;
+}
+
